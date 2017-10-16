@@ -9,10 +9,6 @@ package com.sg.hayden.encountergenerator.dtos;
  *
  * @author Hayden
  */
-public class Monster {
-    protected String name;
-    protected int CR;
-    protected Climate climate;
-    protected Terrain terrain;
-    protected Alignment alignment;
+public enum Terrain {
+    ANY,AQUATIC,WATER,BOG,MARSH,SWAMP,CITY,URBAN,COASTAL,COASTLINE,DESRT,EXTRAPLANAR,FOREST,HILLS,JUNGLE,MOUNTAINS,OCEAN,SEA,PLAINS,RIVERS,LAKES,UNDERGROUND,RUINS
 }

@@ -9,10 +9,6 @@ package com.sg.hayden.encountergenerator.dtos;
  *
  * @author Hayden
  */
-public class Monster {
-    protected String name;
-    protected int CR;
-    protected Climate climate;
-    protected Terrain terrain;
-    protected Alignment alignment;
+public enum Climate {
+    WARM,COLD,ANY
 }
