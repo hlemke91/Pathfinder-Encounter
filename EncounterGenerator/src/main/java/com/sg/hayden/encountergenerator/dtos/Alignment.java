@@ -10,5 +10,5 @@ package com.sg.hayden.encountergenerator.dtos;
  * @author Hayden
  */
 public enum Alignment {
-    
+    LG,NG,CG,LN,N,CN,LE,NE,CE
 }
