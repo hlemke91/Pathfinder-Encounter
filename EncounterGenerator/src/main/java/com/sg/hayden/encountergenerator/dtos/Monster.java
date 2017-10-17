@@ -11,7 +11,7 @@ package com.sg.hayden.encountergenerator.dtos;
  */
 public class Monster {
     protected String name;
-    protected int CR;
+    protected double CR;
     protected Climate climate;
     protected Terrain terrain;
     protected Alignment alignment;

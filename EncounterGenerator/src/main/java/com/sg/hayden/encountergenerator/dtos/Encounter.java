@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @author Hayden
  */
 public class Encounter {
-    protected int ChallengeRating;
+    protected double ChallengeRating;
     protected Terrain terrain;
     protected Climate climate;
     protected ArrayList<String> loot;
