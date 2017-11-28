@@ -18,6 +18,18 @@ public class Encounter {
     protected Terrain terrain;
     protected Climate climate;
     protected ArrayList<String> loot;
-    protected ArrayList<Monster> monsters;
+    protected ArrayList<Monster> monsters = new ArrayList<Monster>();
     int experiencePoints;
+    
+    public void addMonster(Monster m){       
+        monsters.add(m);
+    }
+    
+    public int getXP(){
+        int xp = 0;
+        for(Monster m:monsters){
+            xp+=m.getXP();
+        }
+        return xp;
+    }
 }
